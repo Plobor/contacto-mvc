@@ -1,0 +1,16 @@
+{
+    "name": "andres/contacto-mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Controllers\\": "app/Http/Controllers/",
+            "App\\Models\\": "app/Models/"
+        },
+        "files": [
+            "app/helpers/function_helper.php"
+        ]
+    },
+    "require": {
+        "laravel/lumen": "^10.0"
+    }
+}

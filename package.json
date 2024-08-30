@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/css/main.css -o ./public/css/output.css --minify",
+    "watch": "npx tailwindcss -i ./assets/css/main.css -o ./public/css/output.css --watch"
+  }
+}
